@@ -415,13 +415,55 @@
             </div>
           </div>
         </div>
+        <div>
+          <h3 class="join-newsletter">Zapisz się do newslettera</h3>
+          <form>
+<label for="newsletter"></label>
+<input type="email" name="email" placeholder="E-mail" id="newsletter"/>
+          </form>
+        </div>
+        <div class="newsletter-button">
+          <button class="join-newsletter-2">Zapisz się <svg class="newsletter-image" width="24" height="24">
+            <use href="./images/icons.svg#icon-newsletter" >
+
+            </use>
+          </svg>
+        </button>
+           
+            
+          
+          
+        </div>
       </section>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal" >
         <button type="button" class="close-btn " data-modal-close>X
+</button>
+<p class="data">Zostaw swoje dane w formularzu poniżej</p>
+<form>
+<div class="data2">
+  <label for="name" class="data-label">Imie</label>
+  <input class="data-place data-name" id="name" name="name" type="text" />
+  
+  
+  <label for="telephone" class="data-label" >Telefon</label>
+  <input class="data-place telephone" id="telephone" name="telephone" type="number"/>
 
-        </button>
+  <label for="email" class="data-label">Email</label>
+  <input class="data-place email" id="email" name="email" type="email"/>
+
+  <label for="comment" class="data-label">Komentarz</label>
+  <textarea class="textarea" placeholder="Wprowadź tekst"></textarea>
+</div>
+<div>
+  <label class="terms-condition" for="checkbox">
+    <input class="checkbox" id="checkbox" type="checkbox" name="checkbox"/>
+    <p class="term">Oświadczam iż akceptuję <span><a class="term-condition" href="#">Regulamin</a></span>
+       i <span><a class="term-condition" href="#">Politykę Prywatności.</a></span></p>
+  </label>
+  </div>
+</form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
