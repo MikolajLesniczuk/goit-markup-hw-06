@@ -890,10 +890,11 @@ margin-bottom: 4px;
         display: block;
         height: 15px;
         width: 16px;
-        left: 50px;
-        top: 446px;
+        left: 52px;
+        top: 450px;
         appearance: none;
         cursor: pointer;
+        border: 2px solid #212121;
         
     }
 
@@ -1040,26 +1041,3 @@ cursor: pointer;
 
 }
 
-.terms-condition::before{
- /* display: block;
-    position: absolute; */
-    display: block;
-    position: absolute;
-    left: -30px;
-    top: 0px;
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid black;
-border-radius: 2px;
-    margin-left: 84px; 
-    border-color: #212121;
-    cursor: pointer;
-    margin-top: 3px;
-    
-}
-.checkbox:checked + .terms-condition::before {
-    background-color: #2196F3;
-    border: 10px solid blue;
-
-}
