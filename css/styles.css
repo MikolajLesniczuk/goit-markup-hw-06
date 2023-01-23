@@ -961,14 +961,17 @@ border-radius: 4px;
 
 .form-main{
     position: relative;
-    width: 100%;
+   
 }
 
 .bg-svg{
     position: absolute;
   top: 11.5px;
   left: 16px;
-  display: block;
+  
+}
+.data-place:focus + .bg-svg {
+    fill:#2196F3;
 }
 
 
