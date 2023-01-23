@@ -898,6 +898,7 @@ margin-bottom: 4px;
         cursor: pointer;
         border: 2px solid #212121;
         border-radius: 2px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
        
         
     }
@@ -905,17 +906,16 @@ margin-bottom: 4px;
 
     .check-svg{
         position: absolute;
-     left:53px;
-     top:4px;
+     left:54px;
+     top:5px;
      
        fill:#ffffff;
        cursor: pointer;
+       transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
        }
 
 
-       .check-svg:checked{
-fill:red;
-       } 
+ 
 
     .checkbox:checked{
 background-color: #2196F3;
@@ -972,6 +972,7 @@ border-radius: 4px;
 }
 .data-place:focus + .bg-svg {
     fill:#2196F3;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -1032,6 +1033,7 @@ border-radius: 4px;
 background-color: #2F303A;
 padding-left: 16px;
 color:#ffffff;
+outline: 0;
 }
 
 
